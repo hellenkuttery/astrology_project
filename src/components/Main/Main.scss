@@ -2,5 +2,17 @@
     background-color:#23425F ;
     background: rgb(61,103,147);
     background: linear-gradient(14deg, rgba(61,103,147,1) 0%, rgba(99,102,63,0.9248074229691877) 0%, rgba(43,74,91,1) 46%, rgba(16,46,105,1) 100%);
-    height: 80vh;
+ display: flex;
+ flex-wrap: wrap;
+
+
+}
+
+.cardContainer{
+    background-color: gray;
+    width: 30%;
+    padding:2rem;
+    height: auto;
+    border-radius: 5px;
+    margin:1rem;
 }
