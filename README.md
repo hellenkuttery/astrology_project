@@ -2,6 +2,9 @@
 
 ![Astrology](./src/helpers/astrology.gif).
 
+## Technologies
+- React
+- Sass
 
 # Getting Started with Create React App
 
