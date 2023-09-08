@@ -1,5 +1,41 @@
 .Header{
+    width: 100%;
     text-align: center;
     margin: 1rem;
     padding:0.5rem;
+   
+}
+.astrology{
+    width: 100%;
+    font: 800 2rem 'Rubik Iso', cursive;
+    text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+
+    padding:1rem 0em;
+}
+span{
+    width: 50%;	
+    border: 8px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+    font: 800 6rem 'Satisfy', cursive;
+    font-weight: 800;
+  	letter-spacing: 10px;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+      background: url(https://www.yourtango.com/sites/default/files/image_blog/is-astrology-real.jpg) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+      -webkit-text-fill-color: transparent;
+	    animation: aitf 30s linear infinite;
+     transform: translate3d(0,0,0);
+	  backface-visibility: hidden;
+
+}
+@keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
 }

@@ -8,12 +8,20 @@ const Card = (data) => {
       <div className="title">
         <h1>{data.title}</h1>
       </div>
-      <div className="date">
+      
+      <div className="imgContainer">
+              <img src={data.image}  alt=""  width="50%"/>
+      </div>
+
+      <div className="over box">
+        <span className="borderline"></span>
+        <p className="form">
+        <div className="date">
         <p>{data.date}</p>
       </div>
-      <img src={data.image}  alt=""  width="50%"/>
-      <div className="over">
-        <p>{data.desc}</p>
+          <p>{data.desc}</p>
+        </p>
+        
       </div>
     </div>
   )

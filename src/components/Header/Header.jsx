@@ -1,11 +1,21 @@
-import React from 'react';
+import React from "react";
 import "./Header.scss";
 
 const Header = () => {
   return (
     <div className="Header">
-        <h1 className="astrology">ASTROLOGY</h1>
+      <p className="astrology">
+        {/* learn your future */}
+        <span>ASTROLOGY
+          </span></p>
+      <p>
+        
+      </p>
+      {/* <p>
+        Learn your Future
+        <span> ASTROLOGY</span>
+      </p> */}
     </div>
-  )
-}
-export  default Header;
+  );
+};
+export default Header;
